@@ -13,7 +13,7 @@ from dataset import ptb
 window_size = 5
 hidden_size = 100
 batch_size = 100
-max_epoch = 1
+max_epoch = 1　　　
 
 corpus, word_to_id, id_to_word = ptb.load_data('train')
 vocab_size = len(word_to_id)
