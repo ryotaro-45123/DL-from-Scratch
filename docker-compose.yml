@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  python38:
+    container_name: python38
+    tty: true
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - .:/workspace
+    # ports:
+    #   - '8888:8888'
